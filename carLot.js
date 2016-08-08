@@ -1,17 +1,16 @@
-var CarLot = (function () {
-  var inventory = [];
+var CarLot = (function lotModule(carLot = {}) {
+  carLot = [];
 
-  return {
-    getInventory: function () {
+  carLot.getInventory = function getCars(callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'inventory.json');
+    xhr.addEventListener('load', function onLoad() {
+      carLot = JSON.parse(xhr.responseText);
+      console.info('Success: Loaded songs from songs.json.');
+      callback(carLot);
+    });
+    xhr.send();
+  }
 
-    },
-    loadInventory: function (callback) {
-      var inventoryLoader = new XMLHttpRequest();
-
-      inventoryLoader.addEventListener("load", function () {
-
-      });
-    }
-  };
-
-})();
+  return carLot;
+})(CarLot);

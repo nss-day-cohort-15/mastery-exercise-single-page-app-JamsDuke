@@ -16,7 +16,7 @@
       "price": "3999",
       "color": "Teal",
       "purchased": false,
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
     },
     {
       "make": "Pontiac",
@@ -25,7 +25,7 @@
       "price": "5999",
       "color": "Red",
       "purchased": false,
-      "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+      "description": "This is a 2-Door hatchback Pontiac Firebird with 40000 miles.  Excellent condition and clean vehicle history."
     }
   ]
 }
