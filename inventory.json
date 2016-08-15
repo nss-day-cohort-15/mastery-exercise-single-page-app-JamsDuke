@@ -1,15 +1,17 @@
 {
   "cars": [
     {
+      "url": "/cars/nissan_rogue.jpg",
       "make": "Nissan",
       "model": "Rogue",
       "year": "2006",
       "price": "8999",
-      "color": "Brown",
+      "color": "Silver",
       "purchased": false,
       "description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
     },
     {
+      "url": "/cars/suzuki_sidekick.jpg",
       "make": "Suzuki",
       "model": "Sidekick",
       "year": "1992",
@@ -19,6 +21,7 @@
       "description": "This is a 4-Door 4x4 1992 Suzuki Sidekick with 92000 miles.  Clean interior, runs great, manual windows."
     },
     {
+      "url": "/cars/pontiac_firebird.JPG",
       "make": "Pontiac",
       "model": "Firebird",
       "year": "1985",
