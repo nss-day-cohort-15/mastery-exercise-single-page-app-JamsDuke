@@ -6,7 +6,7 @@
       console.log(inventory[i].make)
       var car = inventory[i]
       //string interpolation
-      showRoom.innerHTML += `<div class="col-sm-4 carCard" style="border-color: ${car.color}">
+      showRoom.innerHTML += `<div class="col-md-4 carCard" style="border-color: ${car.color}">
       <img src="${car.url}">
       <h3>${car.year} ${car.make} ${car.model}</h3>
       <h3>$${car.price}</h3>
