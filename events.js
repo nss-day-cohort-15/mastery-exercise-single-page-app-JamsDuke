@@ -14,4 +14,22 @@
 //IIFE that uses a function that creates all event handlers,
 //name it activateEvents
 
-//Final IIFE
+//Final IIFE sets and resets border thickness and background
+//on carCards
+
+var CarLot = (function (highlightCard) {
+
+  highlightCard.addClickedCarCardClass = function () {
+    var allCards = document.querySelectorAll(".carCard");
+
+    for (var i = allMyCarCards.length - 1; i >= 0; i--){
+    allCards[i].classList.remove("clickedCarCard")
+    }
+  }
+
+  highlightCard.removeClickedCarCardClass = function (targetCard) {
+    currentCarCard.classList.add("clickedCarCard");
+  }
+
+  return highlightCard
+})(CarLot);
