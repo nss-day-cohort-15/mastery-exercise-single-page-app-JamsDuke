@@ -5,6 +5,7 @@ h1 {
 img {
   padding-top: 15px;
   max-height: 140px;
+  align-self: center;
 }
 
 .carCard {
